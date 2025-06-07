@@ -31,3 +31,4 @@ SOLUCIONES:
   - ✅ COMxx, el que corresponda al NANO y dependerá de cada PC.  
   "Herramientas / Processor:"  
   - ✅ ATmega328P (Old Bootloader)  
+“Gracias a EVA, la IA de Copilot, por su apoyo en esta documentación y el análisis.”
