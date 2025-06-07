@@ -15,9 +15,11 @@ Solution
 ✅ Use manual reset → Press the RESET button just before uploading the sketch to force synchronization.  
 Additional Resources  
 🔗 Forum Discussion: Arduino Forum  
-🔗 GitHub Repository: Arduino Nano CH340 Fix 
-
+🔗 GitHub Repository: Arduino Nano CH340 Fix  
+  
 🔥 This documentation will help many users struggling with CH340-based Nano boards! 😎🚀  
 Let me know if you want any refinements or formatting adjustments. 💡 
+  
+“Thanks to EVA, Copilot’s AI, for her support in this documentation and analysis.”  
   
 See Spanish version for more details.  
