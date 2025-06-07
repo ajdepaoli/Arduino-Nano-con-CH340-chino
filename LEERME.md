@@ -2,14 +2,14 @@
 Solución al problema de carga en Arduino Nano con CH340, Solution to the charging problem on Arduino Nano with CH340
 
 ## Solución al problema de carga en Arduino Nano con CH340 chino ##
-Descripción:
-Este repositorio documenta la solución a un problema común en Arduino Nano con CH340n, donde la carga del programa no se realiza.
-Esta falla es debido a la configuración incorrecta de la resistencia en la línea de RESET.
-Esta resistencia, si se tiene el capacitor de 0.1uF, le corresponde un valor de 10kΩ.
-Si observan la PCB verán que ese valor es de 1kΩ, lo cual el tiempo RC es demasiado corto y NO aplica el RESET.
-LISTA de FALLAS:
-  LA PRINCIPAL:
-  ✅ Resistencia incorrecta en la línea RESET (Nano con CH340 suele usar 1kΩ, en lugar de 10kΩ).
+Descripción:  
+Este repositorio documenta la solución a un problema común en Arduino Nano con CH340n, donde la carga del programa no se realiza.  
+Esta falla es debido a la configuración incorrecta de la resistencia en la línea de RESET.  
+Esta resistencia, si se tiene el capacitor de 0.1uF, le corresponde un valor de 10kΩ.  
+Si observan la PCB verán que ese valor es de 1kΩ, lo cual el tiempo RC es demasiado corto y NO aplica el RESET.  
+LISTA de FALLAS:  
+  LA PRINCIPAL:  
+  ✅ Resistencia incorrecta en la línea RESET (Nano con CH340 suele usar 1kΩ, en lugar de 10kΩ).  
   OTRAS
   ✅ Cable USB de mala calidad que afecta la comunicación y la alimentación.
   ✅ Fuente de alimentación de la PC con ruido o tensión baja.
