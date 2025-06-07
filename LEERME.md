@@ -10,7 +10,7 @@ Si observan la PCB verán que ese valor es de 1kΩ, lo cual el tiempo RC es dema
 LISTA de FALLAS:  
   LA PRINCIPAL:  
   ✅ Resistencia incorrecta en la línea RESET (Nano con CH340 suele usar 1kΩ, en lugar de 10kΩ).  
-  OTRAS
+  OTRAS  
   ✅ Cable USB de mala calidad que afecta la comunicación y la alimentación.  
   ✅ Fuente de alimentación de la PC con ruido o tensión baja.  
 SOLUCIONES:  
