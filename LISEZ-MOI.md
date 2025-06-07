@@ -1,22 +1,10 @@
 version frances    
-Arduino Nano CH340 - Échec de téléversement du Sketch  
-📌 Description du problème  
-Beaucoup d'utilisateurs rencontrent des difficultés lors du téléversement de sketches sur les Arduino Nano chinois équipés du CH340. Symptômes :  
-- La carte est détectée, mais le téléversement échoue.  
-- Le bootloader ne se synchronise pas correctement.  
-- Le signal RESET est instable.  
-📌 Causes possibles  
-✅ Choisir le bon bootloader → Certains clones nécessitent ATmega328P (Old Bootloader) dans l'IDE Arduino.  
-✅ Problèmes de pilote CH340 → Vérifiez que le bon driver est installé.  
-✅ Circuit de RESET instable → Ajustements de la ligne de reset peuvent améliorer la synchronisation.  
-📌 Solution  
-🔹 Vérifier la configuration du bootloader dans l'IDE Arduino.  
-🔹 Installer le pilote CH340 mis à jour.  
-🔹 Modifier le circuit RESET, avec une résistance de 10kΩ et un condensateur pour stabiliser.  
-🔹 Utilisation du reset manuel → Appuyez sur RESET juste avant le téléversement pour forcer la synchronisation.  
-🔗 Forum Arduino: Lien  
-🔗 GitHub: Lien  
+Solution au problème de téléchargement sur l'Arduino Nano avec le CH340 chinois  
+Description :  
+Ce référentiel documente la solution à un problème courant sur l'Arduino Nano avec le CH340n, où le téléchargement du programme échoue.  
+Cet échec est dû à une résistance mal configurée sur la ligne RESET.  
+Cette résistance, si le condensateur de 0,1 uF est présent, correspond à une valeur de 10 kΩ. 
   
 Merci à EVA, l'IA de Copilot, pour son soutien dans cette documentation et cette analyse.  
   
-Voir le fichier « Lisez-moi » en espagnol pour plus d'informations.  
+Voir le fichier « LEERME » en espagnol pour plus d'informations.  
